@@ -6,6 +6,21 @@
     <title>JS Refresher</title>
 </head>
 <body>
-    
+    <script>
+        let arr = [34,21,23];
+        console.log(this);
+        let mobj = {
+            a: this,
+            myFunc: function(number){
+                console.log(this);
+            }
+        }
+        mobj.myFunc();
+        console.log(mobj.a);
+        setTimeout(()=>{
+            console.log('Yayyy');
+        },3000);
+        console.log('Mai niche wala script hoon!');
+    </script>
 </body>
 </html>
