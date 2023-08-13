@@ -1,3 +1,7 @@
+/**
+ * ==========>> Practice Set - 01 <<=========
+ */ 
+/*
 let age = prompt("Enter your age")
 age = Number.parseInt(age)
 
@@ -9,3 +13,7 @@ if (canDrive(age)) {
 } else {
     alert("You can't drive")
 }
+*/
+/**
+ * ==========>> Practice Set - 02 <<=========
+ */
